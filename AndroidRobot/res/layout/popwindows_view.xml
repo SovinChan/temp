@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+     <LinearLayout  
+        android:id="@+id/pop_layout"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_alignParentRight="true"  
+        android:layout_alignParentTop="true"  
+        android:background="@drawable/bottom_bar"  
+        android:gravity="center_horizontal"  
+        android:orientation="vertical" >  
+        
+         <LinearLayout  
+            android:id="@+id/team3"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="horizontal"  
+            android:padding="8dp" >  
+  
+            <ImageView  
+                android:layout_width="35dp"  
+                android:layout_height="35dp"  
+                android:scaleType="fitCenter"  
+                android:src="@drawable/change_name" />  
+  
+            <TextView  
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"  
+                android:layout_marginLeft="10dp"  
+                android:gravity="center"  
+                android:text="修改昵称"  
+                android:textColor="#FFFFFF"  
+                android:textSize="15dip" />  
+        </LinearLayout>
+        <TextView  
+            android:layout_width="fill_parent"  
+            android:layout_height="0.2dp"  
+            android:background="#FFFFFF" />
+        <LinearLayout  
+            android:id="@+id/team4"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="horizontal"  
+            android:padding="8dp" >  
+  
+            <ImageView  
+                android:layout_width="35dp"  
+                android:layout_height="35dp"  
+                android:scaleType="fitCenter"  
+                android:src="@drawable/ofm_setting_icon" />  
+  
+            <TextView  
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"  
+                android:layout_marginLeft="10dp"  
+                android:gravity="center"  
+                android:text="修改机器人昵称"  
+                android:textColor="#FFFFFF"  
+                android:textSize="15dip" />  
+        </LinearLayout>  
+  
+        <TextView  
+            android:layout_width="fill_parent"  
+            android:layout_height="0.2dp"  
+            android:background="#FFFFFF" />
+        <LinearLayout  
+            android:id="@+id/team1"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="horizontal"  
+            android:padding="8dp" >  
+  
+            <ImageView
+                android:layout_marginLeft="5dp" 
+                android:layout_marginRight="5dp" 
+                android:layout_width="25dp"  
+                android:layout_height="25dp"  
+                android:scaleType="fitCenter"  
+                android:src="@drawable/lajixiang" />  
+  
+            <TextView  
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"  
+                android:layout_marginLeft="10dp"  
+                android:gravity="center"  
+                android:text="清除内存缓存"  
+                android:textColor="#FFFFFF"  
+                android:textSize="15dip" />  
+        </LinearLayout>  
+  
+        <TextView  
+            android:layout_width="fill_parent"  
+            android:layout_height="0.2dp"  
+            android:background="#FFFFFF" />  
+  
+        <LinearLayout  
+            android:id="@+id/team2"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="horizontal"  
+            android:padding="8dp" >  
+  
+            <ImageView  
+                android:layout_width="35dp"  
+                android:layout_height="35dp"  
+                android:scaleType="fitCenter"  
+                android:src="@drawable/ofm_card_icon" />  
+  
+            <TextView  
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"  
+                android:layout_marginLeft="10dp"  
+                android:gravity="center"  
+                android:text="清除SD卡缓存"  
+                android:textColor="#FFFFFF"  
+                android:textSize="15dip" />  
+        </LinearLayout>
+        <LinearLayout  
+            android:id="@+id/team5"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="horizontal"  
+            android:padding="8dp" >  
+  
+            <ImageView
+                android:layout_marginLeft="5dp" 
+                android:layout_marginRight="5dp" 
+                android:layout_width="25dp"  
+                android:layout_height="25dp"  
+                android:scaleType="fitCenter"  
+                android:src="@drawable/lajixiang" />  
+  
+            <TextView  
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"  
+                android:layout_marginLeft="10dp"  
+                android:gravity="center"  
+                android:text="清空聊天记录"  
+                android:textColor="#FFFFFF"  
+                android:textSize="15dip" />  
+        </LinearLayout>
+  
+    </LinearLayout>  
+
+</RelativeLayout>
